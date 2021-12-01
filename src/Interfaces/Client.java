@@ -50,7 +50,7 @@ public abstract class Client {
         }).start ();
     }
 
-    public abstract void bobDoSomething (Object... parameters);
+    public abstract void bobDoSomething ();
 
     public abstract void consume (String line);
 }

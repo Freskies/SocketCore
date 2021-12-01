@@ -16,7 +16,7 @@ public class Main {
         new Client ("localhost", 8083) {
 
             @Override
-            public void bobDoSomething (Object... parameters) {
+            public void bobDoSomething () {
                 this.write ("Le mie palle");
             }
 
